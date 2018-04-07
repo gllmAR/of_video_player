@@ -38,7 +38,7 @@ class ofApp : public ofBaseApp{
     
     
     bool show_mouse = 0;
-    bool draw_gui = 0;
+    bool draw_gui = 1;
     
     void handle_gui();
     
