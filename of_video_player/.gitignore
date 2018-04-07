@@ -1,0 +1,9 @@
+*.app
+.DS_Store
+*.d
+*.o
+oscillographe.xcodeproj/xuserdata
+*.xcodeproj
+openFrameworks-Info.plist
+Project.xcconfig
+bin/*
