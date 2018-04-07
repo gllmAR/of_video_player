@@ -15,6 +15,7 @@ void Video_player::setup()
     gui.add(movie_path.set("movie_path","movie.mp4"));
     play_b.addListener(this, &Video_player::play_b_changed);
     movie_path.addListener(this, &Video_player::movie_path_changed);
+    player.setPixelFormat(OF_PIXELS_NATIVE);
 }
 
 void Video_player::load(std::string file)
